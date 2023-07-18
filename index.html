@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NK Codes💛-Music Player</title>
+    
+    <!--Font Awesome CDN links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--External Style Sheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="music-player">
+
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-sync" onclick="replay()"></i>
+                </div>
+                <div class="circle" onclick="showCredits()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <img src="./images/music.jpg" class="song-img" alt="Song Image">
+            <h1>"Mouni Naanu🎶"</h1>
+            <p>Performed by: Karthik</p>
+
+
+            <!-- <audio controls id="song"> -->
+            <audio id="song">
+                <source src="./images/Mouni-Naanu-Karthik.mp3" type="audio/mpeg" autoplay ="false">
+            </audio>
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <div onclick="skipBackward()"><i class="fa-solid fa-backward" id="skip-backward-icon"></i></div>
+                <div onclick="playPause()"><i class="fa-solid fa-play" id="control-icon"></i></div>
+                <div onclick="skipForward()"><i class="fa-solid fa-forward" id="skip-forward-icon"></i></div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!--JS File-->
+    <script src="script.js"></script>
+
+</body>
+</html>
