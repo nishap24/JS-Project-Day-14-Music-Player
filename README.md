@@ -15,7 +15,7 @@ NK Codes💛 - Music Player
 
 Live Demo:
 
-    
+  https://nishap24.github.io/JS-Project-Day-14-Music-Player/  
     
 ## Getting Started
 
