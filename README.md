@@ -47,6 +47,11 @@ Feel free to customize the code further to enhance the music player's functional
 4. Song Credits: View detailed information about the song, including artist and writer credits.
 
 5. Replay Option: Start over the current song with a dedicated replay button.
+
+## Deployment Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3294d3ba-c27a-4cc1-b70c-0acb764e9b22/deploy-status)](https://app.netlify.com/sites/kanasu-musicplayer/deploys)
+
 ## Contributing
 
 Contributions are always welcome!
@@ -65,7 +70,7 @@ NK :
 
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/nishap24)
 
-[![instagram](https://img.shields.io/badge/instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/_nisha_p_24)
+[![instagram](https://img.shields.io/badge/instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/_nisha_2407_)
 
 
 Thank you for visiting the page!
